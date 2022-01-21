@@ -1,101 +1,105 @@
 from discord.ext import commands
 
 import ref_functions as rf
-
+import user_manual as um
 from os import getenv
 from dotenv import load_dotenv
 
 bot = commands.Bot(command_prefix=".")
 load_dotenv()
 
+# Commands for the reference function of Porybot, each tied to one of the functions in ref_functions. These commands
+# call the associated function and then send the formatted string to discord.
 
-@bot.command(aliases=['ab'])
-async def ability(ctx, *, ability_name: str):
+
+@bot.command(aliases=['ab', 'Ability'])
+async def ability(ctx,* , ability_name: str):
     await ctx.send(rf.get_ability(ability_name.title()))
 
 
-@bot.command(aliases=['cap'])
+@bot.command(aliases=['cap', 'Capability'])
 async def capability(ctx, *, capability_name: str):
     await ctx.send(rf.get_capability(capability_name.title()))
 
 
-@bot.command(aliases=['class', 'c'])
+@bot.command(aliases=['cl', 'class', 'Class'])
 async def classes(ctx, *, class_name: str):
     await ctx.send(rf.get_class_mechanic(class_name.title()))
 
 
-@bot.command(aliases=['e'])
+@bot.command(aliases=['e', 'ed', 'Edge'])
 async def edge(ctx, *, edge_name: str):
     await ctx.send(rf.get_edge(edge_name.title()))
 
 
-@bot.command(aliases=['feat'])
-async def feature(ctx, *, feat_name: str):
-    await ctx.send(rf.get_feat(feat_name.title()))
+@bot.command(aliases=['f', 'feat', 'Feat', 'Feature'])
+async def feature(ctx, *, feature_name: str):
+    await ctx.send(rf.get_feat(feature_name.title()))
 
 
-@bot.command(aliases=['f'])
+@bot.command(aliases=['Food'])
 async def food(ctx, *, food_name: str):
     await ctx.send(rf.get_food(food_name.title()))
 
 
-@bot.command(aliases=['hi'])
-async def held_item(ctx, *, helditem_name: str):
-    await ctx.send(rf.get_held_item(helditem_name.title()))
+@bot.command(aliases=['hitem', 'heldi', 'Held_Item'])
+async def held_item(ctx, *, held_item_name: str):
+    await ctx.send(rf.get_held_item(held_item_name.title()))
 
 
-@bot.command(aliases=['i'])
+@bot.command(aliases=['i', 'Item'])
 async def item(ctx, *, item_name: str):
     await ctx.send(rf.get_item(item_name.title()))
 
 
-@bot.command(aliases=['mv'])
+@bot.command(aliases=['mv', 'Move'])
 async def move(ctx, *, move_name: str):
     await ctx.send(rf.get_move(move_name.title()))
 
 
-@bot.command(aliases=['n'])
+@bot.command(aliases=['nat', 'Nature'])
 async def nature(ctx, *, nature_name: str):
     await ctx.send(rf.get_nature(nature_name.title()))
 
 
-@bot.command(alaises=['pkmne'])
-async def pkmnedge(ctx, *, pedge_name: str):
-    await ctx.send(rf.get_poke_edge(pedge_name.title()))
+@bot.command(aliases=['pedge', 'Pokeedge', 'poke-edge', 'Poke-edge'])
+async def pokeedge(ctx, *, pokeedge_name: str):
+    await ctx.send(rf.get_poke_edge(pokeedge_name.title()))
 
 
-@bot.command(aliases=['sts'])
+@bot.command(alaises=['s', 'statuses', 'Status'])
 async def status(ctx, *, status_name: str):
     await ctx.send(rf.get_status(status_name.title()))
 
 
-@bot.command(aliases=['w'])
+@bot.command(aliases=['w', 'Weather'])
 async def weather(ctx, *, weather_name: str):
     await ctx.send(rf.get_weather(weather_name.title()))
 
 
-@bot.command(aliases=['pkmnbs'])
-async def pkmn_basestats(ctx, *, poke_name):
-    await ctx.send(rf.pokemon_info(poke_name.title()))
+@bot.command(aliases=['pokecap', 'Pokemon-Capabilities', 'pokemon-capabilities'])
+async def pokemon_capabilities(ctx, *, pokemon_name: str):
+    await ctx.send(rf.pokemon_capabilities(pokemon_name.title()))
 
 
-@bot.command(aliases=['pkmncap'])
-async def pkmn_capabilities(ctx, *, poke_name):
-    await ctx.send(rf.pokemon_capabilities(poke_name.title()))
+@bot.command(aliases=['base stats', 'bs', 'Base-Stats'])
+async def base_stats(ctx, *, pokemon_name: str):
+    await ctx.send(rf.pokemon_info(pokemon_name.title()))
 
 
-@bot.command(aliases=['db'])
-async def damage_base(ctx, *, db_num: int):
-    await ctx.send(rf.damage_base(db_num))
+@bot.command(aliases=['db', 'damage-base', 'Damage-Base'])
+async def damage_base(ctx, *, d_base: int):
+    await ctx.send(rf.damage_base(d_base))
 
 
-@bot.command(aliases=['te'])
-async def type_effectiveness(ctx, *, pkmn_type: str):
-    await ctx.send(rf.get_type_effect(pkmn_type.title()))
+@bot.command(aliases=['te', 'Type-Effectiveness', 'type-effectiveness', 'type'])
+async def type_effectiveness(ctx, *, type: str):
+    await ctx.send(rf.get_type_effect(type.title()))
 
 
-@bot.command(aliases=['kw'])
-async def keyword(ctx, *, keyword_name: str):
-    await ctx.send(rf.get_keyword(keyword_name.title()))
+@bot.command(aliases=['kw', 'Keyword'])
+async def keyword(ctx, *, kw: str):
+    await ctx.send(rf.get_keyword(kw.title()))
+
 
 bot.run(getenv('TOKEN'))
