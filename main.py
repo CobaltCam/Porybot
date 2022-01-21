@@ -1,7 +1,6 @@
 from discord.ext import commands
 
 import ref_functions as rf
-import user_manual as um
 from os import getenv
 from dotenv import load_dotenv
 
