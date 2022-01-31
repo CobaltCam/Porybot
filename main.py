@@ -1,6 +1,8 @@
 from discord.ext import commands
 
+import pkmndice
 import ref_functions as rf
+import pkmndice as dice
 from os import getenv
 from dotenv import load_dotenv
 
@@ -100,5 +102,14 @@ async def type_effectiveness(ctx, *, type: str):
 async def keyword(ctx, *, kw: str):
     await ctx.send(rf.get_keyword(kw.title()))
 
+# -------------------------------------------------DICE COMMANDS------------------------------------------------------ #
+@bot.command(aliases=['r'])
+async def roll(ctx, *, dice):
+    await ctx.reply(pkmndice.manual_roll(dice))
+
+
+@bot.command(aliases=['rdb', 'damageroll'])
+async def roll_damage(ctx, damagebase: int):
+    await ctx.reply(pkmndice.rolled_damage(damagebase))
 
 bot.run(getenv('TOKEN'))
