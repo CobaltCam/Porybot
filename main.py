@@ -1,13 +1,14 @@
 from discord.ext import commands
 
-import pkmndice
 import ref_functions as rf
-import pkmndice as dice
+import pkmndice
+import hitpoint_counter as hp
 from os import getenv
 from dotenv import load_dotenv
 
 bot = commands.Bot(command_prefix=".")
 load_dotenv()
+hp = hp.HitPointTracker()
 
 # Commands for the reference function of Porybot, each tied to one of the functions in ref_functions. These commands
 # call the associated function and then send the formatted string to discord.
@@ -111,5 +112,35 @@ async def roll(ctx, *, dice):
 @bot.command(aliases=['rdb', 'damageroll'])
 async def roll_damage(ctx, damagebase: int):
     await ctx.reply(pkmndice.rolled_damage(damagebase))
+
+#--------------------------------------------------HitpointCounter-----------------------------------------------------#
+
+@bot.command()
+async def reset(ctx):
+    await ctx.send(hp.encounter_start())
+
+
+@bot.command()
+async def add(ctx, com_name: str, hitpoints: int):
+    await ctx.send(hp.add_combatant(com_name, hitpoints))
+
+
+@bot.command()
+async def check(ctx, combatant: str):
+    await ctx.send(hp.check_combatant(combatant))
+
+
+@bot.command()
+async def remove(ctx, combatant: str):
+    await ctx.send(hp.remove_combatant(combatant))
+
+@bot.command()
+async def update(ctx, combatant: str, value: int):
+    await ctx.send(hp.update_hitpoints(combatant, value))
+
+@bot.command()
+async def list(ctx):
+    await ctx.send(hp.list_hitpoints())
+
 
 bot.run(getenv('TOKEN'))
