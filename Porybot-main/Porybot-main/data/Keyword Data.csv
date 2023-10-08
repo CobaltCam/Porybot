@@ -1,0 +1,57 @@
+Keyword,Description
+Aura,"Moves with this Keyword manipulate Aura and
+may be affected by certain Abilities or effects."
+Berry,Natural Gift has a different Damage Base and Elemental Type based on the Berry the user has stored a Digestion Buff from. Consult the Chart on Core pg. 339.
+Blessing,"Safeguard, Lucky Chant, Reflect, and Light Screen provide a Blessing shared by the entire team. All Pokemon and Trainers allied to the user may benefit from the Blessing. The Blessing persists until it’s used up, even if the original user is KO’d or switched out."
+Coat,Moves with the Coat keyword give the targets a certain effect while the Coat persists. Coats may be passed on by Baton Pass.
+Dash,A Dash Move cannot be used if the user is Stuck.
+Double Strike,"Whenever a Move with Double Strike is used, make two Attack Rolls. If one Attack Roll hits, the Move does damage as indicated by its Damage Base value; if both Attack Rolls hit however, the Damage Base value is doubled. Each hit may Critically Hit separately; when adding damage from Critical Hit, add the Damage Base before it’s doubled. For example, if one Double Kick attack is a Critical Hit, add +1d8+5 to the damage roll. If both are Critical Hits, add +2d8+10."
+Environ,A Pokemon using a Move with the Environ keyword consults the chart on Core pg.339 for what Move or effect to use.
+Execute,These Moves automatically KO the target if they hit. The 1d100 roll may not be modified in any way or re-rolled through any means.
+Exhaust,"If a Move has the Exhaust keyword, the user forfeits their Standard and Shift actions on their next turn, and forfeits their trainer’s Command. If any of these actions has already been used up, the move Fails and does not activate."
+Fling,"The Move Fling is very unique! Its effect depends on the held item of the user. If used a Trainer, they must throw an item in either hand. Chart on Core pg. 340"
+Friendly,Moves with the Friendly Keyword do not hit allies.
+Five Strike,"Whenever a Move with Five Strike is used, roll 1d8. On a result of 1, the attack hits one time. On a result of 2 or 3, the attack hits two times. On a result of 4, 5, or 6, the attack hits three times. On a result of 7, the attack hits four times. On a roll of 8, the attack hits five times. Multiply the Move’s Damage Base by the number of times hit; that becomes its new Damage Base. You may always apply Technician to Moves with Five Strike. Apply STAB and all other effects that raise Damage Base only after the Move’s final Damage Base has been calculated."
+Groundsource,Moves with the Groundsource keyword do not have their Accuracy modified by targeting into Rough Terrain and ignore Blocking Terrain.
+Hazard,"If a Move has the Hazard keyword, the effect covers a portion of the field of battle. A Hazard only affects the foes under certain circumstances. You may put extra Layers of the Move with Hazard if the Move allows, but only one per usage of the Move."
+Illusion,"These Moves are Illusions, and may be ignored by Trainers with the Clairsentient Feature."
+Interrupt,"Interrupt Moves may be declared in the middle of another combatant’s turn to allow the user to take an action. They work similarly to Priority (Advanced, Limited) effects in that they only allow you to take the action that has Interrupt and not a full turn."
+Pass,"At any point during a Shift, the user may declare a move with the Pass keyword. Once the Move is declared, the user may move forward only in a straight line, for up to 4 meters, treating foes as Regular Terrain and moving through any enemies in its path. The user must end in  an empty square. The Pass Move attacks all targets in each square it dashes through, but each target may be hit only once. The user must end their Shift at the end of the dash. Shifting as a result of the Pass keyword does not provoke Attacks of Opportunity."
+Pledge,"Pledge Moves can generate a number of special effects. A Rainbow lasts for 5 rounds and increases the Effect Range of all allies’ attacks by +3. A Fire Hazard is a special type of Hazard. Any targets that begin or end their turn on a Fire Hazard are Burned. Anyone that passes through a Fire Hazard takes damage equal to 1/8th of their Max Hit Points. If a Ground, Rock, or Water-Type Move targets a square (or a target in a square) with Fire Hazard in them, the Fire Hazards are destroyed. All effects that destroy Hazards extinguish Fire Hazards."
+Powder,Moves with the Powder keyword have no effect on Grass Type Pokemon.
+Priority,"If the user has not already acted this turn, a Move with the Priority keyword may be declared to act immediately; the user takes their full turn, ignoring initiative. This counts as their turn for the round. A priority Move may not be declared during someone else’s turn; it must be declared between turns. Priority also comes in Priority (Limited) and Priority (Advanced) varieties. The Priority (Limited) keyword is like Priority except the user may not take their full turn; they may only take the action that itself has Priority and take the
+rest of their turn on their own Initiative Count. For
+example, Orders are Priority (Limited), meaning the
+user only uses their Standard Action and does not take a
+full turn. Priority (Advanced) Moves don’t require that
+the user hasn’t acted that turn; if they have, they simply
+give up their turn on the following round."
+Push,"The target of the attack is Pushed a specified amount of meters. Unless specified, the Push direction should be away from the user."
+Reaction,"Reactions work exactly like Interrupts, except that they happen after the triggering condition is fully resolved, instead of before. Thus, the user must survive the trigger condition to be able to perform the reaction."
+Recoil,"When a Move says to Recoil, total the amount of damage the target took from your attack, then multiply by the fraction paired with the Keyword Recoil. The Move’s user loses Hit Points equal to that result."
+Set-up,"These are two-turn Moves which require the user to prepare in some way. On the first turn, the Set-Up Effect is used; then on the following turn the Resolution Effect occurs."
+Shield,Moves with this Keyword are Interrupts that are triggered by foes’ attacks. They usually prevent the effect of attacks in some manner.
+Smite,"When Moves with the Smite keyword Miss, instead of doing no damage, they deal damage as if the attack were resisted one step further. Targets dealt damage this way do not suffer any secondary effects of the Move."
+Social,Moves with the Social Keyword are based on social manipulation. They cannot be Intercepted and ignore the effects of Substitute. Some Features and other effects also take advantage of this Keyword.
+Sonic,Moves with the Sonic Keyword are based on sound. They ignore the effects of Substitute.
+Spirit Surge,"A Move with the Spirit Surge keyword will have its Effect activate even if the Move does not hit a  target. If the Move requires a certain Accuracy Roll, the roll must still be met."
+Trigger,Moves with the Trigger keyword are ONLY able to be used whenever the condition in their Effect line is met.
+Vortex,"While in a Vortex, the target is Slowed, Trapped, and loses a Tick of Hit Points at the beginning of each turn. At the end of each turn, the user may roll 1d20 to end all of these effects; during the first turn, they must roll a 20 or higher to dispel the vortex. The DC is lowered by 6 each following turn, automatically wearing off on the fifth turn (20, 14, 8, 2, Dispel)"
+Weather,"Moves with the Weather keyword affects an area, changing the rules of the battle. Damage can be altered and even the Effects of moves can change depending on the Weather in battle. There can only be one Weather Effect in place at a time; new Weather Effects replace old Weather Effects. Weather Conditions last 5 rounds. Note that despite their names, Weather Conditions are not usually found as natural occurrences. A bright and
+sunny day does not count as Sunny Weather, nor does rain count as Rainy Weather. However, particularly severe examples of the corresponding weather can count. For example, a tropical rainstorm could count as Rainy weather"
+Weight Class,"A Move with the Weight Class Keyword refers to the following.   
+>Weight Class 1 0 – 25 lbs; 0 – 11 kg
+>Weight Class 2 25 – 55 lbs; 11 – 25 kg
+>Weight Class 3 55 – 110 lbs; 25 – 50 kg
+>Weight Class 4 110 – 220 lbs; 50 – 100 kg
+>Weight Class 5 220 – 440 lbs; 100 – 200 kg
+>Weight Class 6 Any Pokemon heavier than 440 lbs; 200 kg
+>Weight Class 7 Any Pokemon heavier than 450 lbs with the Heavy Metal Ability."
+Burst ,The Move hits all legal targets surrounding the user in a radius of X.
+Cardinally Adjacent,The Move hits all cardinally adjacent targets.
+Close Blast X,The Move creates an X by X square adjacent to the user and hits all legal targets within.
+Cone ,The Move hits all legal targets in the square immediately in front of the user and in 3m wide rows extending from that square up to X meters away.
+Line ,"The Move creates a line X meters long starting from the user and hits all legal targets in that line. When used diagonally, apply the same rules as for diagonal movement."
+Melee 1 Target,The Move hits one target adjacent to the user.
+Ranged 1 Target,"The Move hits one target within X meters of the user. Sometimes, such Moves can hit multiple targets and are labeled as such, in which case each target must be within the requisite number of meters of the user."
+Ranged Blast ,The Move creates a Y by Y square up to X meters away and hits all legal targets within.

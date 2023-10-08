@@ -1,0 +1,188 @@
+Held Item,Description
+Big Root,HP-stealing moves restore double HP
+Bright Powder,Speed Evasion +2
+Choice Items,"Choice Items are tied to a specific Stat. While held, the default state of the Stat is +2 Combat Stages. However, the user is Suppressed and cannot be cured until the end of Combat, even if the item is removed."
+Choice Band,"The default state of the holder's Attack Stat is +2 Combat Stages. However, the holder is Suppressed and cannot be cured until the end of Combat, even if the item is removed."
+Choice Specs,"The default state of the holder's Special Attack Stat is +2 Combat Stages. However, the holder is Suppressed and cannot be cured until the end of Combat, even if the item is removed."
+Choice Scarf,"The default state of the holder's Speed Stat is +2 Combat Stages. However, the holder is Suppressed and cannot be cured until the end of Combat, even if the item is removed."
+Choice Item (Def),"The default state of the holder's Defense Stat is +2 Combat Stages. However, the holder is Suppressed and cannot be cured until the end of Combat, even if the item is removed."
+Choice Item (SDef),"The default state of the holder's Special Defense Stat is +2 Combat Stages. However, the holder is Suppressed and cannot be cured until the end of Combat, even if the item is removed."
+Contest Accessory,The user rolls +2d6 during the Introduction Stage of a Contest.
+Contest Fashion,"These Items have a chosen Contest Stat; Beauty, Cool, Cute, Smart, or Tough. When held, once per Contest, the holder may re-roll any 1's made when using a Move of the chosen Contest Stat."
+Beauty Fashion,Once per Contest the holder may re-roll any 1's made when using a Beauty Move.
+Cute Fashion,Once per Contest the holder may re-roll any 1's made when using a Cute Move.
+Cool Fashion,Once per Contest the holder may re-roll any 1's made when using a Cool Move.
+Smart Fashion,Once per Contest the holder may re-roll any 1's made when using a Smart Move.
+Tough Fashion,Once per Contest the holder may re-roll any 1's made when using a Tough Move.
+Everstone,Evolution is prevented for the holder.
+Eviolite,"Only affects not-fully-evolved Pokémon of a single family, decided when the Eviolite is made. Grants a +5 Bonus to two different Stats, after Combat Stages, decided when the Eviolite is made. Prevents Pokémon from evolving when held."
+Expert Belt,"Whenever the holder deals Super Effective Damage, they deal an additional 5 damage (this damage is not multiplied)."
+Flame Orb,Induces Burn on holder. Standard Action to drop.
+Focus Band,"Whenever the holder would faint, roll 1d20. Once per Scene on a result of 16+, the holder does not faint and is left with 1 HP instead."
+Focus Sash,"Once per Scene, if damage from a Move would take the holder’s Hit Points from Max to 0 or less, the holder is set to 1 HP instead."
+Full Incense,The holder gains the Stall ability.
+Go-Goggles,The holder does not take damage from Sandstorm.
+Iron Ball,"The holder's Speed Stat is halved, and any immunity to Ground Type is lost. Standard Action to drop."
+King's Rock,"Attacks cause Flinch on an accuracy roll of 19+. This does not stack with any abilities, moves, or effects that extend flinch rate."
+Lagging Items,"Lagging Items are tied to a specific Stat. When held, the Stat is set to -4 Combat Stages. Standard Action to drop."
+Lagging Tail,The holder's Speed Stat is set to -4 Combat Stages. Standard Action to drop.
+Lagging Item (Atk),The holder's Attack Stat is set to -4 Combat Stages. Standard Action to drop.
+Lagging Item (Def),The holder's Defense Stat is set to -4 Combat Stages. Standard Action to drop.
+Lagging Item (SAtk),The holder's Special Attack Stat is set to -4 Combat Stages. Standard Action to drop.
+Lagging Item (SDef),The holder's Special Defense Stat is set to -4 Combat Stages. Standard Action to drop.
+Lax Incense,All Stat Evasions +1
+Life Orb,"Whenever the holder deals direct damage, increase the damage by +5, and then the holder loses Hit Points equal to 1/16th of their Max Hit Points."
+Luck Incense,Grants +1 Bonus to all Accuracy Rolls. A roll of 1 always misses.
+Quick Claw,The user adds +10 to their Initiative.
+Razor Claw,The holder’s damaging attacks have their Critical Hit Range extended by +1.
+Razor Fang,The holder’s damaging attacks cause an Injury on a roll of 19+.
+Safety Goggles,The holder is immune to Moves with the Powder Keyword.
+Shell Bell,"Whenever the holder damages a foe, they gain a Tick of Temporary Hit Points."
+Shock Collar,"Comes with a remote activator, which, when activated, causes the holder to lose Hit Points equal to 1/6th of their Max Hit Points. This may be used to activate the “Press” Feature."
+Stat Boosters,"Stat Boosters are tied one of the following Stats: Attack, Defense, Special Attack, Special Defense, Speed, Evasion, or Accuracy. When held, the default state of the Stat is +1 Combat Stage, or simply +1 for Accuracy and Evasion."
+Attack Booster,The default state of the holder's Attack Stat is +1 Combat Stage.
+Defense Booster,The default state of the holder's Defense Stat is +1 Combat Stage.
+S Attack Booster,The default state of the holder's Special Attack Stat is +1 Combat Stage.
+S Defense Booster,The default state of the holder's Special Defense Stat is +1 Combat Stage.
+Speed Booster,The default state of the holder's Speed Stat is +1 Combat Stage.
+Accuracy Booster,Accuracy +1
+Evasion Booster,Evasion +1
+Toxic Orb,Induces Poison on holder. Standard Action to drop.
+Type Boosters,"These items come in a variety of each of the Elemental Types, and grant a +5 Damage Bonus to all direct-damage Moves of that specific Type used by the holder."
+Bug Booster,Grants a +5 Damage Bonus to all direct-damage Bug Moves used by the holder.
+Dark Booster,Grants a +5 Damage Bonus to all direct-damage Dark Moves used by the holder.
+Dragon Booster,Grants a +5 Damage Bonus to all direct-damage Dragon Moves used by the holder.
+Electric Booster,Grants a +5 Damage Bonus to all direct-damage Electric Moves used by the holder.
+Fairy Booster,Grants a +5 Damage Bonus to all direct-damage Fairy Moves used by the holder.
+Fighting Booster,Grants a +5 Damage Bonus to all direct-damage Fighting Moves used by the holder.
+Fire Booster,Grants a +5 Damage Bonus to all direct-damage Fire Moves used by the holder.
+Flying Booster,Grants a +5 Damage Bonus to all direct-damage Flying Moves used by the holder.
+Ghost Booster,Grants a +5 Damage Bonus to all direct-damage Ghost Moves used by the holder.
+Grass Booster,Grants a +5 Damage Bonus to all direct-damage Grass Moves used by the holder.
+Ground Booster,Grants a +5 Damage Bonus to all direct-damage Ground Moves used by the holder.
+Ice Booster,Grants a +5 Damage Bonus to all direct-damage Ice Moves used by the holder.
+Normal Booster,Grants a +5 Damage Bonus to all direct-damage Normal Moves used by the holder.
+Poison Booster,Grants a +5 Damage Bonus to all direct-damage Poison Moves used by the holder.
+Psychic Booster,Grants a +5 Damage Bonus to all direct-damage Psychic Moves used by the holder.
+Rock Booster,Grants a +5 Damage Bonus to all direct-damage Rock Moves used by the holder.
+Steel Booster,Grants a +5 Damage Bonus to all direct-damage Steel Moves used by the holder.
+Water Booster,Grants a +5 Damage Bonus to all direct-damage Water Moves used by the holder.
+Type Brace,"These items come in a variety of each of the Elemental Types, and grant the holder 15 Damage Reduction against all direct-damage Moves of that specific Type."
+Bug Brace,Grants the holder 15 Damage Reduction against all direct-damage Bug Moves.
+Dark Brace,Grants the holder 15 Damage Reduction against all direct-damage Dark Moves.
+Dragon Brace,Grants the holder 15 Damage Reduction against all direct-damage Dragon Moves.
+Electric Brace,Grants the holder 15 Damage Reduction against all direct-damage Electric Moves.
+Fairy Brace,Grants the holder 15 Damage Reduction against all direct-damage Fairy Moves.
+Fighting Brace,Grants the holder 15 Damage Reduction against all direct-damage Fighting Moves.
+Fire Brace,Grants the holder 15 Damage Reduction against all direct-damage Fire Moves.
+Flying Brace,Grants the holder 15 Damage Reduction against all direct-damage Flying Moves.
+Ghost Brace,Grants the holder 15 Damage Reduction against all direct-damage Ghost Moves.
+Grass Brace,Grants the holder 15 Damage Reduction against all direct-damage Grass Moves.
+Ground Brace,Grants the holder 15 Damage Reduction against all direct-damage Ground Moves.
+Ice Brace,Grants the holder 15 Damage Reduction against all direct-damage Ice Moves.
+Normal Brace,Grants the holder 15 Damage Reduction against all direct-damage Normal Moves.
+Poison Brace,Grants the holder 15 Damage Reduction against all direct-damage Poison Moves.
+Psychic Brace,Grants the holder 15 Damage Reduction against all direct-damage Psychic Moves.
+Rock Brace,Grants the holder 15 Damage Reduction against all direct-damage Rock Moves.
+Steel Brace,Grants the holder 15 Damage Reduction against all direct-damage Steel Moves.
+Water Brace,Grants the holder 15 Damage Reduction against all direct-damage Water Moves.
+Type Gem,"These items come in a variety of each of the Elemental Types, and can be consumed as a Free Action to give a +3 Damage Base bonus to one attack of that specific Type."
+Bug Gem,Can be consumed as a Free Action to give a +3 DB bonus to one Bug-Type attack.
+Dark Gem,Can be consumed as a Free Action to give a +3 DB bonus to one Dark-Type attack.
+Dragon Gem,Can be consumed as a Free Action to give a +3 DB bonus to one Dragon-Type attack.
+Electric Gem,Can be consumed as a Free Action to give a +3 DB bonus to one Electric-Type attack.
+Fairy Gem,Can be consumed as a Free Action to give a +3 DB bonus to one Fairy-Type attack.
+Fighting Gem,Can be consumed as a Free Action to give a +3 DB bonus to one Fighting-Type attack.
+Fire Gem,Can be consumed as a Free Action to give a +3 DB bonus to one Fire-Type attack.
+Flying Gem,Can be consumed as a Free Action to give a +3 DB bonus to one Flying-Type attack.
+Ghost Gem,Can be consumed as a Free Action to give a +3 DB bonus to one Ghost-Type attack.
+Grass Gem,Can be consumed as a Free Action to give a +3 DB bonus to one Grass-Type attack.
+Ground Gem,Can be consumed as a Free Action to give a +3 DB bonus to one Ground-Type attack.
+Ice Gem,Can be consumed as a Free Action to give a +3 DB bonus to one Ice-Type attack.
+Normal Gem,Can be consumed as a Free Action to give a +3 DB bonus to one Normal-Type attack.
+Poison Gem,Can be consumed as a Free Action to give a +3 DB bonus to one Poison-Type attack.
+Psychic Gem,Can be consumed as a Free Action to give a +3 DB bonus to one Psychic-Type attack.
+Rock Gem,Can be consumed as a Free Action to give a +3 DB bonus to one Rock-Type attack.
+Steel Gem,Can be consumed as a Free Action to give a +3 DB bonus to one Steel-Type attack.
+Water Gem,Can be consumed as a Free Action to give a +3 DB bonus to one Water-Type attack.
+Type Plates,"These Rare items come in a variety of each of the Elemental Types, and act as both a Type Booster and a Type Brace."
+Draco Plate,Acts as both a Dragon Booster and a Dragon Brace.
+Dread Plate,Acts as both a Dark Booster and a Dark Brace.
+Earth Plate,Acts as both a Ground Booster and a Ground Brace.
+Fist Plate,Acts as both a Fighting Booster and a Fighting Brace.
+Flame Plate,Acts as both a Fire Booster and a Fire Brace.
+Icicle Plate,Acts as both an Ice Booster and an Ice Brace.
+Insect Plate,Acts as both a Bug Booster and a Bug Brace.
+Iron Plate,Acts as both a Steel Booster and a Steel Brace.
+Meadow Plate,Acts as both a Grass Booster and a Grass Brace.
+Mind Plate,Acts as both a Psychic Booster and a Psychic Brace.
+Pixie Plate,Acts as both a Fairy Booster and a Fairy Brace.
+Sky Plate,Acts as both a Flying Booster and a Flying Brace.
+Splash Plate,Acts as both a Water Booster and a Water Brace.
+Spooky Plate,Acts as both a Ghost Booster and a Ghost Brace.
+Stone Plate,Acts as both a Rock Booster and a Rock Brace.
+Toxic Plate,Acts as both a Poison Booster and a Poison Brace.
+Zap Plate,Acts as both an Electric Booster and an Electric Brace.
+Normal Plate,Acts as both a Normal Booster and a Normal Brace.
+Winter Cloak,The holder does not take damage from Hail.
+Metal Powder,"When held by an untransformed Ditto, increases both Defense and Special Defense by +2 Combat Stages."
+Rare Leek,"When held by a Farfetch’d, increases critical range by +2; Wielded."
+Thick Club,"When held by a Cubone or Marowak, grants the Pure Power Ability; Wielded."
+Pink Pearl,"Acts as a Psychic Booster. If held by a Spoink, it also acts as a Special Attack Booster."
+Tiny Mushroom,"The user loses 5 HP, and gains +1 Combat Stage in a random Stat."
+Big Mushroom,"The user becomes Poisoned; if they do, they gain +1 Combat Stage in two random Stats."
+Balm Mushroom,"The user is cured of Burn, Paralysis, or Poison. If they are, they lose 1 Combat Stage in a random Stat."
+Adorable Fashion,The holder may activate this item once a Scene as a Free Action to gain +2 Evasion for one full round.
+Elegant Fashion,The holder may activate this item once a Scene as a Free Action when losing Combat Stages from a foe’s effect to instead not lose those Combat Stages.
+Rad Fashion,The holder may activate this item once a Scene as a Free Action to gain a +4 bonus to a single Save Check.
+Rough Fashion,The holder may activate this item once a Scene as a Free Action to cause a foe within 5 meters to take a -2 penalty to all rolls for one full round.
+Slick Fashion,The holder may activate this item once a Scene as a Free Action when provoking an Attack of Opportunity to instead not provoke one.
+Mega Stone,An item that allows a Pokémon to Mega Evolve when used in conjunction with a Mega Ring. Each Mega Stone is specific to one species and Mega Evolved form.
+Abomasite,Mega Evolves Abomasnow when used in conjuction with a Mega Ring.
+Absolite,Mega Evolves Absol when used in conjuction with a Mega Ring.
+Aerodactylite,Mega Evolves Aerodactyl when used in conjuction with a Mega Ring.
+Aggronite,Mega Evolves Aggron when used in conjuction with a Mega Ring.
+Alakazite,Mega Evolves Alakazam when used in conjuction with a Mega Ring.
+Altarianite,Mega Evolves Altaria when used in conjuction with a Mega Ring.
+Ampharosite,Mega Evolves Ampharos when used in conjuction with a Mega Ring.
+Audinite,Mega Evolves Audino when used in conjuction with a Mega Ring.
+Banettite,Mega Evolves Banette when used in conjuction with a Mega Ring.
+Beedrillite,Mega Evolves Beedrill when used in conjuction with a Mega Ring.
+Blastoisinite,Mega Evolves Blastoise when used in conjuction with a Mega Ring.
+Blazikenite,Mega Evolves Blaziken when used in conjuction with a Mega Ring.
+Cameruptite,Mega Evolves Camerupt when used in conjuction with a Mega Ring.
+Charizardite X,Mega Evolves Charizard when used in conjuction with a Mega Ring.
+Charizardite Y,Mega Evolves Charizard when used in conjuction with a Mega Ring.
+Diancite,Mega Evolves Diancie when used in conjuction with a Mega Ring.
+Galladite,Mega Evolves Gallade when used in conjuction with a Mega Ring.
+Garchompite,Mega Evolves Garchomp when used in conjuction with a Mega Ring.
+Gardevoirite,Mega Evolves Gardevoir when used in conjuction with a Mega Ring.
+Gengarite,Mega Evolves Gengar when used in conjuction with a Mega Ring.
+Glalitite,Mega Evolves Glalie when used in conjuction with a Mega Ring.
+Gyaradosite,Mega Evolves Gyarados when used in conjuction with a Mega Ring.
+Heracronite,Mega Evolves Heracross when used in conjuction with a Mega Ring.
+Houndoominite,Mega Evolves Houndoom when used in conjuction with a Mega Ring.
+Kangaskhanite,Mega Evolves Kangaskhan when used in conjuction with a Mega Ring.
+Latiasite,Mega Evolves Latias when used in conjuction with a Mega Ring.
+Latiosite,Mega Evolves Latios when used in conjuction with a Mega Ring.
+Lopunnite,Mega Evolves Lopunny when used in conjuction with a Mega Ring.
+Lucarionite,Mega Evolves Lucario when used in conjuction with a Mega Ring.
+Manectite,Mega Evolves Manectric when used in conjuction with a Mega Ring.
+Mawilite,Mega Evolves Mawile when used in conjuction with a Mega Ring.
+Medichamite,Mega Evolves Medicham when used in conjuction with a Mega Ring.
+Metagrossite,Mega Evolves Metagross when used in conjuction with a Mega Ring.
+Mewtwonite X,Mega Evolves Mewtwo when used in conjuction with a Mega Ring.
+Mewtwonite Y,Mega Evolves Mewtwo when used in conjuction with a Mega Ring.
+Pidgeotite,Mega Evolves Pidgeotto when used in conjuction with a Mega Ring.
+Pinsirite,Mega Evolves Pinsir when used in conjuction with a Mega Ring.
+Sablenite,Mega Evolves Sableye when used in conjuction with a Mega Ring.
+Salamencite,Mega Evolves Salamence when used in conjuction with a Mega Ring.
+Sceptilite,Mega Evolves Sceptile when used in conjuction with a Mega Ring.
+Scizorite,Mega Evolves Scizor when used in conjuction with a Mega Ring.
+Sharpedonite,Mega Evolves Sharpedo when used in conjuction with a Mega Ring.
+Slowbronite,Mega Evolves Slowbro when used in conjuction with a Mega Ring.
+Steelixite,Mega Evolves Steelix when used in conjuction with a Mega Ring.
+Swampertite,Mega Evolves Swampert when used in conjuction with a Mega Ring.
+Tyranitarite,Mega Evolves Tyranitar when used in conjuction with a Mega Ring.
+Venusaurite,Mega Evolves Venusaur when used in conjuction with a Mega Ring.
+Venusaurite,Mega Evolves Venusaur when used in conjuction with a Mega Ring.

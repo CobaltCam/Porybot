@@ -1,0 +1,66 @@
+Food Item,Digestion Buff
+Candy Bar,Restores 5 Hit Points
+Honey,Restores 5 Hit Points
+Leftovers,Recover 1/16th of max Hit Points at the beginning of each turn for the rest of the encounter
+Black Sludge,Recover 1/8th of max Hit Points at the beginning of each turn for the rest of the encounter
+Mental Herb,Cures all Volatile Status Effects
+Power Herb,Eliminates the Set-Up turn of Moves with the Set-Up Keyword
+White Herb,Any negative Combat Stages are set to 0
+Cheri Berry,Cures paralysis
+Chesto Berry,Cures sleep
+Pecha Berry,Cures poison
+Rawst Berry,Cures burn
+Aspear Berry,Cures freeze
+Oran Berry,Restores 5 Hit Points
+Persim Berry,Cures Confusion
+Lum Berry,Cures any single status ailment
+Sitrus Berry,Restores 15 Hit Points
+Figy Berry,"Heals 1/8th of the Pokémon’s Max HP. If the user likes Spicy, it heals 1/6th instead. If the user dislikes Spicy, the user is Confused."
+Wiki Berry,"Heals 1/8th of the Pokémon’s Max HP. If the user likes Dry, it heals 1/6th instead. If the user dislikes Dry, the user is Confused."
+Mago Berry,"Heals 1/8th of the Pokémon’s Max HP. If the user likes Sweet, it heals 1/6th instead. If the user dislikes Sweet, the user is Confused."
+Aguav Berry,"Heals 1/8th of the Pokémon’s Max HP. If the user likes Bitter, it heals 1/6th instead. If the user dislikes Bitter, the user is Confused."
+Iapapa Berry,"Heals 1/8th of the Pokémon’s Max HP. If the user likes Sour, it heals 1/6th instead. If the user dislikes Sour, the user is Confused."
+Liechi Berry,Attack CS +1
+Ganlon Berry,Defense CS +1
+Salac Berry,Speed CS +1
+Petaya Berry,Special Attack CS +1
+Apicot Berry,Special Defense CS +1
+Lansat Berry,Increases Critical Range by +1 for the remainder of the encounter.
+Starf Berry,Random stat CS +2.  May be used only at 25% HP or lower.
+Enigma Berry,User gains Temporary HP equal to 1/6th of their Max HP when hit by a Super Effective Move.
+Micle Berry,Increases Accuracy by +1.
+Jaboca Berry,Foe dealing Physical Damage to the user loses 1/8 of their Maximum HP.
+Rowap Berry,Foe dealing Special Damage to the user loses 1/8 of their Maximum HP.
+Cornn Berry,Cures Disabled condition
+Magost Berry,Cures Enraged condition
+Rabuta Berry,Cures Suppressed condition
+Nomel Berry,Cures Infatuated condition
+Leppa Berry,Restores a Scene Move
+Occa Berry,Weakens foe’s super effective Fire-type move by one step
+Passho Berry,Weakens foe’s super effective Water-type move by one step
+Wacan Berry,Weakens foe’s super effective Electric-type move by one step
+Rindo Berry,Weakens foe’s super effective Grass-type move by one step
+Yache Berry,Weakens foe’s super effective Ice-type move by one step
+Chople Berry,Weakens foe’s super effective Fighting-type move by one step
+Kebia Berry,Weakens foe’s super effective Poison-type move by one step
+Shuca Berry,Weakens foe’s super effective Ground-type move by one step
+Coba Berry,Weakens foe’s super effective Flying-type move by one step
+Payapa Berry,Weakens foe’s super effective Psychic-type move by one step
+Tanga Berry,Weakens foe’s super effective Bug-type move by one step
+Charti Berry,Weakens foe’s super effective Rock-type move by one step
+Kasib Berry,Weakens foe’s super effective Ghost-type move by one step
+Haban Berry,Weakens foe’s super effective Dragon-type move by one step
+Colbur Berry,Weakens foe’s super effective Dark-type move by one step
+Babiri Berry,Weakens foe’s super effective Steel-type move by one step
+Chilan Berry,Weakens foe’s Normal-type move by one step
+Roseli Berry,Weakens foe’s super effective Fairy-type move by one step
+Custap Berry,Grants the Priority keyword to any Move. May only be used at 25% HP or lower.
+Kee Berry,Defense CS +1. Activates as a Free Action when hit by a Physical Move.
+Maranga Berry,Special Defense CS +1. Activates as a Free Action when hit by a Special Move.
+Salty Surprise,"Gain 5 temporary Hit Points when hit by an attack.  If the user likes Salty, gain 10 temporary Hit Points instead.  If the user dislikes Salty, they become Enraged."
+Spicy Wrap,"Deal +5 additional damage when making a physical attack.  If the user likes Spicy, deal +10 additional damage instead.  If the user dislikes Spicy, they become Enraged."
+Sour Candy,"Gain +5 damage reduction against a physical attack.  If the user likes Sour, gain +10 damage reduction instead.  If the user dislikes Sour, they become Enraged."
+Dry Wafer,"Deal +5 additional damage when making a special attack.  If the user likes Dry, deal +10 additional damage instead.  If the user dislikes Dry, they become Enraged."
+Bitter Treat,"Gain +5 damage reduction against a special attack.  If the user likes Sour, gain +10 damage reduction instead.  If the user dislikes Sour, they become Enraged."
+Sweet Confection,"Gain +4 Evasion until the end of the user's next turn.  If the user likes Sweet, gain +4 Accuracy as well.  If the user dislikes Sweet, they become Enraged."
+Herbal Restorative,[Playtest] +2 bonus on a Save Check.
