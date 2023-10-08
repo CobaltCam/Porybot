@@ -1,13 +1,14 @@
+import discord
 from discord.ext import commands
 
 import ref_functions as rf
 import pkmndice
 import hitpoint_counter as hp
-from os import getenv
-from dotenv import load_dotenv
+# from os import getenv
+# from dotenv import load_dotenv
 
-bot = commands.Bot(command_prefix=".")
-load_dotenv()
+bot = commands.Bot(command_prefix=".", intents=discord.Intents.all())
+# load_dotenv()
 hp = hp.HitPointTracker()
 
 # Commands for the reference function of Porybot, each tied to one of the functions in ref_functions. These commands
@@ -143,4 +144,4 @@ async def list(ctx):
     await ctx.send(hp.list_hitpoints())
 
 
-bot.run(getenv('TOKEN'))
+bot.run('TOKEN')
